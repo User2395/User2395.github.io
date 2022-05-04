@@ -6,14 +6,14 @@ let now;
 
 function preload()
 {
-  gif = loadImage('../res/tiesto-dj.gif');
+  gif = loadImage('res/tiesto-dj.gif');
 }
 
 function setup() {
   frameRate(60);
   var canvas = createCanvas(windowWidth,windowHeight/1.3);
   background(0);
-  img = loadImage('../res/logo.png')
+  img = loadImage('res/logo.png')
 }
 
 function draw() {
