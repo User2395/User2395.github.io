@@ -4,8 +4,8 @@
 }
 
 .game {
-  width: 400px;
-  height: 100px;
+  width: 600px;
+  height: 200px;
   border: 1px solid black;
   float:right;
 }
