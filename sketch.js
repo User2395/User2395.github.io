@@ -35,10 +35,10 @@ function draw() {
   text("Athens 2022",windowWidth/2.2,windowHeight/1.5);
 
   fill(128,255,128);
-  text(`${days}:${hours}:${minutes}:${seconds}`,windowWidth/2.2,windowHeight/1.45);
+  text(`${days}:${hours}:${minutes}:${seconds}`,windowWidth/2.2,windowHeight/1.4);
 
   textSize(14);
-  text(`DAYS  HOURS  MINUTES SECONDS`,windowWidth/2.19,windowHeight/1.4);
+  text(`DAYS  HOURS  MINUTES SECONDS`,windowWidth/2.19,windowHeight/1.35);
 
 	image(img,windowWidth/2.6,windowHeight/4,img.width/2,img.height/2);
 }
