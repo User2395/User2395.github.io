@@ -1,3 +1,7 @@
+.player {
+  display: inline-block;
+}
+
 .game {
   width: 400px;
   height: 100px;
