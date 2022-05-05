@@ -32,7 +32,7 @@ function draw() {
 
 
   fill(255);
-  text("Athens 2022",windowWidth/2.2,windowHeight/1.6);
+  text("Athens 2022",windowWidth/2.2,windowHeight/1.5);
 
   fill(128,255,128);
   text(`${days}:${hours}:${minutes}:${seconds}`,windowWidth/2.2,windowHeight/1.45);
