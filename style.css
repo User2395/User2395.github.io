@@ -19,6 +19,10 @@
   animation: jump 0.3s linear;
 }
 
+.lose {
+  animation: lose 0.3s linear;
+}
+
 @keyframes jump {
   0% {
     top: 150px;
@@ -35,6 +39,23 @@
   80% {
     top: 130px;
   }
+
+  100% {
+    top: 150px;
+  }
+}
+
+@keyframes lose {
+  
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(90deg);
+  }
+
+}
 
   100% {
     top: 150px;
