@@ -11,7 +11,7 @@ function preload()
 
 function setup() {
   frameRate(60);
-  var canvas = createCanvas(windowWidth,windowHeight/1.3);
+  var canvas = createCanvas(windowWidth,windowHeight/1.4);
   background(0);
   img = loadImage('res/logo.png')
 }
