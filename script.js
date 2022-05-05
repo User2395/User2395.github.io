@@ -11,6 +11,16 @@ function jump() {
   }
 }
 
+function lose() {
+  if (dino.classList != "lose") {
+    dino.classList.add("lose");
+
+    setTimeout(function () {
+      dino.classList.remove("lose");
+    }, 300);
+  }
+}
+
 let isAlive = setInterval(function () {
   // get current dino Y position
   let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
