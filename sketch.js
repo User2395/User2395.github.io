@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   background(0);
   textSize(42);
-  image(gif, windowWidth-gif.width * 1.2,400,gif.width,gif.height);
+  image(gif, windowWidth-gif.width * 1.2,250,gif.width,gif.height);
   gif.play();
 
   now = new Date().getTime();
